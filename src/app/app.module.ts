@@ -1,14 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, RoutingComponent } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewCmpComponent } from './new-cmp/new-cmp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewCmpComponent
+    NewCmpComponent,
+    RoutingComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,18 @@
+<hr>
 <p>
-  
+  new-cmp works!
+</p>
+<hr>
+<p>
   {{variable}}
+</p>
+<hr>
+<b>Learning Pipes</b>
+<p>
   <br>
-  {{variable | lowercase}}
+  {{ variable | lowercase}}
   <br>
-  {{variable | uppercase}}
+  {{ variable | uppercase}}
   <br>
   {{ d | date:'d/m/y'}}
   <br>
@@ -21,6 +29,9 @@
   {{ months | slice:2:3}}
 
 </p>
+<hr>
+<b>Learning for loops</b>
+<br>
 <div> Months:
   <select (change) = "changemonths($event)">
     <option *ngFor = "let i of months">{{i}}</option>
@@ -29,10 +40,11 @@
   <ng-template #condition1> Invalid</ng-template>
   <ng-template #condition2>Valid</ng-template>
 </div>
+<hr>
+<b>Learning Event Binding</b>
+<br>
 <button (click) = "myClickFunction($event)">
   button
 </button>
+<hr>
 
-<p>
-  new-cmp works!
-</p>
