@@ -1,4 +1,4 @@
-![Screenshot (169)](https://github.com/Rameen714/My-Portfolio-Website---Angular/assets/82565681/ac17e8a8-e7ee-47e8-bb3c-5117896172e9)![image](https://github.com/Rameen714/My-Portfolio-Website---Angular/assets/82565681/d9d132eb-b0f0-4893-896b-b8c5a7a5a8ce)
+![Screenshot (169)](https://github.com/Rameen714/My-Portfolio-Website---Angular/assets/82565681/b1c5b51f-c74f-40ef-993c-64fc3edb18a2)
 
 # FirstAngularProject
 
