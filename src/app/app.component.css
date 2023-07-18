@@ -1,11 +1,97 @@
-a:link, a:visited { 
-    background-color: #848686; 
+button { 
+    background-color: #b9048c;/*#04cafc;*/
     color: white; 
-    padding: 10px 25px; 
+    padding: 2% ; 
     text-align: center; 
-    text-decoration: none; 
+    text-decoration:solid;
+    font-size:medium;
     display: inline-block; 
+    margin-right: 3% ;
+    border-radius: 5px;
  } 
- a:hover, a:active {
-    background-color: #BD9696;
+ a{
+   text-decoration: none;
+   color: white;
  }
+ h1{
+  color: white; 
+ }
+ 
+ mat-card{
+  border-radius: 5px;
+  padding: 0;
+ }
+ mat-card mat-card-footer{
+  color: white;
+  background-color: #150055;
+  margin: 1px 1px 1px 1px;
+  padding: 1px 5px 1px 10px;
+  border-radius: 5px;
+
+ }
+ mat-card mat-card-header{
+  color: white;
+  background-color: #1c0f44; 
+  border-radius: 5px;
+  padding-left: 0;
+  width: 100vh;
+  display: flex;
+  position: relative;
+ }
+ 
+ mat-toolbar {
+  color: white;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  display: flexbox;
+  flex-direction: column;
+  position: relative;
+  margin: 0px 2px 0px 2px;
+  height: 15vh;
+ }
+ mat-toolbar mat-toolbar-row{
+  color: white;
+  background-color: #1c0f44; 
+  border-radius: 5px ;
+  width: 97%;
+  display: flexbox;
+  flex-direction: column;
+  position: relative;
+  margin: 0px 18px 0px 18px;
+  height: 100vh;
+  
+ }
+ .toggle{
+  display: inline-flex;
+  position:relative;
+  justify-content:flex-end;
+  align-items: right;
+ }
+ mat-card mat-slide-toggle{
+  color: white;
+  background-color: #1c0f44;
+  display:flex;
+  position: relative;
+  margin: 0;
+  padding: 0%;
+
+ }
+ .light-theme {
+  --primary-color: #2196F3;
+  --accent-color: #FF4081;
+  --background-color: #FFFFFF;
+  --text-color: #000000;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --primary-color: #673AB7;
+  --accent-color: #FF9800;
+  --background-color: #303030;
+  --text-color: #FFFFFF;
+}
+ 
+ 
+
+ 
