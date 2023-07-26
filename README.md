@@ -1,9 +1,13 @@
 ![Screenshot (169)](https://github.com/Rameen714/My-Portfolio-Website---Angular/assets/82565681/b1c5b51f-c74f-40ef-993c-64fc3edb18a2)
 
+
+
 # FirstAngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.10.
-
+Front-end: Angular
+Back-end: Spring Boot
+Database: SQLServer
 
 
 ## Development server
