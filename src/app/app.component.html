@@ -8,49 +8,51 @@ The content below is only a placeholder and can be replaced.
   <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
 </div>
 -->
+<div class="main">
+<mat-card>
+<mat-toolbar>
+  <mat-toolbar-row style="justify-content: space-between;">
+  
+    <div >
+      <h1>Rameen Amir's Portfolio</h1>
+    </div>
 
-  <mat-toolbar>
-    <mat-toolbar-row style="justify-content: space-between;" class="hbar">
+
+    <div >
+    <a routerLink = '/'>
+      <button mat-button >
+        Home
+      </button>
+    </a>
+    <a routerLink = '/my-projects'>
+      <button mat-button >
+        My Projects
+      </button>
+    </a>
+    <a routerLink = '/contact-me'>
+      <button mat-button >
+        Contact Me
+      </button>
+    </a>
     
-      <div >
-        <h1>Rameen Amir's Portfolio</h1>
-      </div>
+    <!-- <mat-card [ngClass]="isDarkMode() ? 'dark-theme' : 'light-theme'" class="toggle">
+      <mat-slide-toggle (change) = "toggleTheme()">
+          <span *ngIf="isDarkMode()">🌙</span>
+          <span *ngIf="!isDarkMode()">☀️</span>
+          <span>Light / Dark Mode</span>
+      </mat-slide-toggle>
+    </mat-card> -->
 
+    </div>
 
-      <div >
-      <a routerLink = '/'>
-        <button mat-button >
-          Home
-        </button>
-      </a>
-      <a routerLink = '/my-projects'>
-        <button mat-button >
-          My Projects
-        </button>
-      </a>
-      <a routerLink = '/contact-me'>
-        <button mat-button >
-          Contact Me
-        </button>
-      </a>
-      
-      <!-- <mat-card [ngClass]="isDarkMode() ? 'dark-theme' : 'light-theme'" class="toggle">
-        <mat-slide-toggle (change) = "toggleTheme()">
-            <span *ngIf="isDarkMode()">🌙</span>
-            <span *ngIf="!isDarkMode()">☀️</span>
-            <span>Light / Dark Mode</span>
-        </mat-slide-toggle>
-      </mat-card> -->
-
-      </div>
-
-    </mat-toolbar-row>
-  </mat-toolbar>
+  </mat-toolbar-row>
+</mat-toolbar>
+</mat-card>
 
 <router-outlet></router-outlet>
 
 <mat-card>
-  <mat-card-footer class="fbar">
+  <mat-card-footer >
     <p>Created by: 
       <a href="https://www.linkedin.com/in/rameenamir/" >Rameen Amir</a>
     </p>
@@ -59,5 +61,5 @@ The content below is only a placeholder and can be replaced.
 
   </mat-card-footer>
 </mat-card>
-
+</div>
 
