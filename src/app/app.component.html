@@ -1,5 +1,6 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<!--
+<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cum, unde placeat nulla libero hic laudantium est incidunt vitae earum quibusdam, sapiente temporibus non, quisquam similique perferendis rerum voluptates pariatur?</p>
+The content below is only a placeholder and can be replaced.
+
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -8,8 +9,6 @@
 </div>
 -->
 
-<nav>
-    
   <mat-toolbar>
     <mat-toolbar-row style="justify-content: space-between;" class="hbar">
     
@@ -35,19 +34,18 @@
         </button>
       </a>
       
-      <mat-card [ngClass]="isDarkMode() ? 'dark-theme' : 'light-theme'" class="toggle">
+      <!-- <mat-card [ngClass]="isDarkMode() ? 'dark-theme' : 'light-theme'" class="toggle">
         <mat-slide-toggle (change) = "toggleTheme()">
             <span *ngIf="isDarkMode()">🌙</span>
             <span *ngIf="!isDarkMode()">☀️</span>
             <span>Light / Dark Mode</span>
         </mat-slide-toggle>
-      </mat-card>
+      </mat-card> -->
 
       </div>
 
     </mat-toolbar-row>
   </mat-toolbar>
-</nav>
 
 <router-outlet></router-outlet>
 
@@ -61,10 +59,5 @@
 
   </mat-card-footer>
 </mat-card>
-
-
-<!--
-<app-new-cmp></app-new-cmp>
--->
 
 

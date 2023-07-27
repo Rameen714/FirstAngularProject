@@ -11,10 +11,10 @@ export class AppComponent {
   
   title = 'FirstAngularProject';
   
-  toggleTheme(): void {
-    this.lightDarkModeService.toggleTheme();
-  }
-  isDarkMode(): boolean {
-    return this.lightDarkModeService.getTheme() === 'dark';
-  }
+  // toggleTheme(): void {
+  //   this.lightDarkModeService.toggleTheme();
+  // }
+  // isDarkMode(): boolean {
+  //   return this.lightDarkModeService.getTheme() === 'dark';
+  // }
 }

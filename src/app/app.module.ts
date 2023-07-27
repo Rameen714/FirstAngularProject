@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { NewCmpComponent } from './new-cmp/new-cmp.component';
 import { ScrollDispatchModule} from '@angular/cdk/scrolling';
 import { DragDropModule} from '@angular/cdk/drag-drop';
-import { MatMenu,MatButton, MatSidenav,MatSlideToggleModule,MatCard, MatCardModule, MatToolbarModule, MatIconModule } from '@angular/material';
+import { MatMenu,MatButton, MatSidenav,MatSlideToggleModule,MatCard, MatCardModule, MatToolbarModule, MatIconModule, MatGridListModule } from '@angular/material';
+import { HttpClientModule } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { MatMenu,MatButton, MatSidenav,MatSlideToggleModule,MatCard, MatCardModu
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
+    HttpClientModule,
+    MatGridListModule,
 
   ],
   providers: [],
